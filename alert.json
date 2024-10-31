@@ -1,0 +1,5 @@
+{
+    "status": "active",
+    "message": "This is an urgent alert for all users!",
+    "lock_status": "unlocked" // Options: "locked" or "unlocked"
+}
