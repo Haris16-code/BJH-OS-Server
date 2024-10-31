@@ -1,5 +1,5 @@
 {
     "status": "active",
     "message": "This is an active alert from haris the developer of School management System",
-    "lock_status": "unlocked"
+    "lock_status": "locked"
 }
