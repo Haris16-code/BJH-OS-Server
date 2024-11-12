@@ -1,5 +1,8 @@
 {
-    "version": "4.2",
-    "updateNotes": "New features and performance improvements. Bug fixes and UI enhancements.",
-    "downloadLink": "https://bjhos.unaux.com"
+    "version": "4.3",
+    "updateNotes": [
+        "Now BJH OS Tool is available for 32 Bit System. Now you can use BJH OS Tool on 32 Bit computers. Just double-click on BJH_OS_Tool_32_Bit.exe and use this.",
+        "BJH OS Terminal is updated. Now you can run scripts in BJH OS Terminal to perform advanced tasks."
+    ],
+    "downloadLink": "https://bjhos.unaux.com/BJH OS Updates/BJHOS 4.3 update.html"
 }
