@@ -3,81 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Permissions Checker</title>
+    <title>About This App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
         }
         .container {
-            text-align: center;
-            background-color: white;
+            max-width: 800px;
+            margin: auto;
+            background: #f4f4f4;
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .container h1 {
-            margin-bottom: 20px;
+        h1 {
+            color: #333;
         }
-        .permission {
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            background-color: #f9f9f9;
+        p {
+            font-size: 18px;
+            color: #555;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Permissions Checker</h1>
-        <div id="permissionsList"></div>
-    </div>
-    <script>
-        async function checkPermissions() {
-            const permissions = [
-                'geolocation',
-                'notifications',
-                'push',
-                'camera',
-                'microphone',
-                'background-sync',
-                'midi',
-                'midi-sysex',
-                'clipboard-read',
-                'clipboard-write',
-                'ambient-light-sensor',
-                'accelerometer',
-                'gyroscope',
-                'magnetometer',
-                'accessibility-events',
-                'clipboard-read',
-                'clipboard-write',
-                'payment-handler'
-            ];
-
-            const permissionsList = document.getElementById('permissionsList');
-            permissionsList.innerHTML = '';
-
-            for (const name of permissions) {
-                try {
-                    const result = await navigator.permissions.query({ name });
-                    const div = document.createElement('div');
-                    div.className = 'permission';
-                    div.textContent = `${name}: ${result.state}`;
-                    permissionsList.appendChild(div);
-                } catch (error) {
-                    console.error(`Permission ${name} not recognized or not supported:`, error);
-                }
-            }
-        }
-
-        checkPermissions();
-    </script>
+        <h1>About This App</h1>
+        <p>This web application allows you to view dynamic content hosted on a remote server. The app is designed to update automatically whenever new content is available.</p>
+        <p>With this app, users can access the latest content without needing to refresh manually. It ensures a seamless experience for displaying BJH OS Latest live Apps dynamically.</p>
+    </div> 
 </body>
 </html>
