@@ -1,12 +1,6 @@
 {
     "version": "4.4",
     "updateNotes": [
-        "🚀 BJH OS Tool Now Supports 32-Bit Systems!",
-        "Finally, you can use BJH OS Tool on 32-bit computers! Just double-click BJH_OS_Tool_32_Bit.exe and get started.",
-        
-        "💻 BJH OS Terminal Just Got Smarter!",
-        "Now, you can run scripts directly in the BJH OS Terminal, giving you more power to perform advanced tasks!",
-        
         "✅ Bug Fix: Install Apps Easily!",
         "Fixed the annoying 'Directory Not Found' error in BJH OS Tool 32-Bit. Installing apps is now smoother than ever!",
         
