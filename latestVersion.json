@@ -1,14 +1,15 @@
 {
     "version": "4.4",
     "updateNotes": [
-    "🚀 **BJH OS Tool Now Supports 32-Bit Systems!** Finally, you can use BJH OS Tool on 32-bit computers! Just double-click `BJH_OS_Tool_32_Bit.exe` and get started.",
-    "💻 **BJH OS Terminal Just Got Smarter!** Now, you can run scripts directly in the BJH OS Terminal, giving you more power to perform advanced tasks!",
-    "✅ **Bug Fix: Install Apps Easily!** Fixed the annoying 'Directory Not Found' error in BJH OS Tool 32-Bit. Installing apps is now smoother than ever!",
-    "📖 **New Help Option Added!** We've introduced 'Help Option (5)' in BJH OS Tool 32-Bit to guide you through its usage.",
-    "📦 **Lighter & Faster OS!** We've optimized BJH OS, removing unnecessary files and reducing its size by **23MB**—making it faster and more efficient!",
-    "🌐 **Introducing BJH OS Live App!** This app connects to the BJH OS Server, letting you test new apps **without downloading** them. Perfect for beta testing and early access!",
-    "🖥 **Taskbar Apps Are Now Fully Functional!** The icons for File Manager, Browser, and Paint are now linked to real apps. **Just click and go!**"
-]
+        "🚀 **BJH OS Tool Now Supports 32-Bit Systems!** Finally, you can use BJH OS Tool on 32-bit computers! Just double-click `BJH_OS_Tool_32_Bit.exe` and get started.",
+        "💻 **BJH OS Terminal Just Got Smarter!** Now, you can run scripts directly in the BJH OS Terminal, giving you more power to perform advanced tasks!",
+        "✅ **Bug Fix: Install Apps Easily!** Fixed the annoying 'Directory Not Found' error in BJH OS Tool 32-Bit. Installing apps is now smoother than ever!",
+        "📖 **New Help Option Added!** We've introduced 'Help Option (5)' in BJH OS Tool 32-Bit to guide you through its usage.",
+        "📦 **Lighter & Faster OS!** We've optimized BJH OS, removing unnecessary files and reducing its size by **23MB**—making it faster and more efficient!",
+        "🌐 **Introducing BJH OS Live App!** This app connects to the BJH OS Server, letting you test new apps **without downloading** them. Perfect for beta testing and early access!",
+        "🖥 **Taskbar Apps Are Now Fully Functional!** The icons for File Manager, Browser, and Paint are now linked to real apps. **Just click and go!**"
+    ]
+
 ,
     "downloadLink": "https://download1587.mediafire.com/j4h1p7ejbgbgTAXwDVqYPPBHpxWxjr_eNe1IObL-7uvp5MLweoPplGzShV8GmBCPt70eBug207fbrSoeorqskObKI0Pku1PXxqa9YRGBhGCNyDWqISts7sMUgJbk-t-qpNBIKR46Jutaz1ZOKns_ltctkWIh0NxHOA9bk58XEM2B/6z8ptr2ve1ijy1q/BJH+OS+4.4+new+Update.zip"
 }
