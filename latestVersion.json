@@ -14,7 +14,10 @@
         "This app connects to the BJH OS Server, letting you test new apps without downloading them. Perfect for beta testing and early access!",
         
         "🖥 Taskbar Apps Are Now Fully Functional!",
-        "The icons for File Manager, Browser, and Paint are now linked to real apps. Just click and go!"
+        "The icons for File Manager, Browser, and Paint are now linked to real apps. Just click and go!",
+        "How to install this update?",
+        "1. Just Extract the zip file open BJH OS Tool and click system update select the extracted folder it install it automatically.",
+        "2. Reload BJH OS if you already open in it browser. Thats All!"
     ]
 ,
     "downloadLink": "https://download1587.mediafire.com/j4h1p7ejbgbgTAXwDVqYPPBHpxWxjr_eNe1IObL-7uvp5MLweoPplGzShV8GmBCPt70eBug207fbrSoeorqskObKI0Pku1PXxqa9YRGBhGCNyDWqISts7sMUgJbk-t-qpNBIKR46Jutaz1ZOKns_ltctkWIh0NxHOA9bk58XEM2B/6z8ptr2ve1ijy1q/BJH+OS+4.4+new+Update.zip"
