@@ -1,24 +1,14 @@
 {
-    "version": "4.4",
+    "version": "4.5",
     "updateNotes": [
-        "✅ Bug Fix: Install Apps Easily!",
-        "Fixed the annoying 'Directory Not Found' error in BJH OS Tool 32-Bit. Installing apps is now smoother than ever!",
-        
-        "📖 New Help Option Added!",
-        "We've introduced 'Help Option (5)' in BJH OS Tool 32-Bit to guide you through its usage.",
-        
-        "📦 Lighter & Faster OS!",
-        "We've optimized BJH OS, removing unnecessary files and reducing its size by 23MB—making it faster and more efficient!",
-        
-        "🌐 Introducing BJH OS Live App!",
-        "This app connects to the BJH OS Server, letting you test new apps without downloading them. Perfect for beta testing and early access!",
-        
-        "🖥 Taskbar Apps Are Now Fully Functional!",
-        "The icons for File Manager, Browser, and Paint are now linked to real apps. Just click and go!",
+ "🛡️ Introducing BJH OS Antivirus!",
+    "BJH OS now includes a built-in antivirus tool that scans files using VirusShare MD5 signatures. Enjoy secure, offline virus scanning with an animated progress bar and detailed results.",
+    "📰 New App: BJH OS News & Updates!",
+    "Stay informed with real-time announcements, feature updates, and security alerts—all delivered straight to your system via the new News & Updates app.",
         "How to install this update?",
         "1. Just Extract the zip file open BJH OS Tool and click system update select the extracted folder it install it automatically.",
         "2. Reload BJH OS if you already open in it browser. Thats All!"
     ]
 ,
-    "downloadLink": "https://download1587.mediafire.com/j4h1p7ejbgbgTAXwDVqYPPBHpxWxjr_eNe1IObL-7uvp5MLweoPplGzShV8GmBCPt70eBug207fbrSoeorqskObKI0Pku1PXxqa9YRGBhGCNyDWqISts7sMUgJbk-t-qpNBIKR46Jutaz1ZOKns_ltctkWIh0NxHOA9bk58XEM2B/6z8ptr2ve1ijy1q/BJH+OS+4.4+new+Update.zip"
+    "downloadLink": "https://github.com/Haris685/BJH-OS/releases/download/BJH_OS_V4.5/BJH.OS.4.5.new.Update.zip"
 }
