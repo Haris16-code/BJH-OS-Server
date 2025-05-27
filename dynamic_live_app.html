@@ -1,37 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About This App</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #f4f4f4;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>System Info</title>
+  <styles>
+      body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0f0;
+}
+
+h1 {
+  text-align: center;
+  color: #0f0;
+}
+
+.info-box {
+  white-space: pre-wrap;
+  padding: 10px;
+  background-color: #000;
+  border: 1px solid #0f0;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+  </styles>
 </head>
 <body>
-    <div class="container">
-        <h1>About This App</h1>
-        <p>This web application allows you to view dynamic content hosted on a remote server. The app is designed to update automatically whenever new content is available.</p>
-        <p>With this app, users can access the latest content without needing to refresh manually. It ensures a seamless experience for displaying BJH OS Latest live Apps dynamically.</p>
-    </div> 
+  <div class="container">
+    <h1>System Information</h1>
+    <div id="info" class="info-box"></div>
+  </div>
+  <script>function getGPUInfo() {
+  try {
+    const canvas = document.createElement("canvas");
+    const gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+    const debugInfo = gl.getExtension("WEBGL_debug_renderer_info");
+    return {
+      renderer: gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL),
+      vendor: gl.getParameter(debugInfo.UNMASKED_VENDOR_WEBGL),
+    };
+  } catch (e) {
+    return { renderer: "Unavailable", vendor: "Unavailable" };
+  }
+}
+
+function getSystemInfo() {
+  const gpuInfo = getGPUInfo();
+
+  const info = {
+    "Platform": navigator.platform,
+    "User Agent": navigator.userAgent,
+    "Browser": navigator.appCodeName + " (" + navigator.appVersion + ")",
+    "Language": navigator.language,
+    "Online": navigator.onLine,
+    "Java Enabled": navigator.javaEnabled(),
+    "Cookies Enabled": navigator.cookieEnabled,
+    "Hardware Concurrency (CPU Threads)": navigator.hardwareConcurrency || "Unavailable",
+    "Device Memory (RAM in GB)": navigator.deviceMemory || "Unavailable",
+    "Screen Width": screen.width,
+    "Screen Height": screen.height,
+    "Color Depth": screen.colorDepth,
+    "Timezone": Intl.DateTimeFormat().resolvedOptions().timeZone,
+    "GPU Renderer": gpuInfo.renderer,
+    "GPU Vendor": gpuInfo.vendor
+  };
+
+  return info;
+}
+
+function displayInfo() {
+  const infoBox = document.getElementById("info");
+  const info = getSystemInfo();
+  let output = "";
+  for (const key in info) {
+    output += `${key}: ${info[key]}\n`;
+  }
+  infoBox.textContent = output;
+}
+
+displayInfo();
+</script>
 </body>
 </html>
