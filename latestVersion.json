@@ -1,14 +1,21 @@
 {
-    "version": "4.5",
+    "version": "4.6",
     "updateNotes": [
- "🛡️ Introducing BJH OS Antivirus!",
-    "BJH OS now includes a built-in antivirus tool that scans files using VirusShare MD5 signatures. Enjoy secure, offline virus scanning with an animated progress bar and detailed results.",
-    "📰 New App: BJH OS News & Updates!",
-    "Stay informed with real-time announcements, feature updates, and security alerts—all delivered straight to your system via the new News & Updates app.",
-        "How to install this update?",
-        "1. Just Extract the zip file open BJH OS Tool and click system update select the extracted folder it install it automatically.",
-        "2. Reload BJH OS if you already open in it browser. Thats All!"
-    ]
+    "💻 Window Management Improvements:",
+    "- Draggable App Windows with titlebar and close button.",
+    "- Maximize / Restore functionality (double-click titlebar supported).",
+    "- In-window launching: Start menu & toolbar apps open inside windows instead of new tabs.",
+    "- Smoother UI with enhanced shadows, borders, and polished drag interactions.",
+    "✨ New Features & Updates:",
+    "- BJH OS AI Added for smarter interactions.",
+    "- Flash Browser added: lightweight, fast, and secure.",
+    "- About & Settings pages rebuilt with improved UI and system info display.",
+    "- BJH OS Antivirus: Definitions Updated to the Latest Version.",
+    "- BJH Tool 64-bit Fix for better compatibility.",
+    "📦 How to install this update?",
+    "1. Extract the zip file, open BJH OS Tool, and click 'System Update'. Select the extracted folder to install automatically.",
+    "2. Reload BJH OS if it is already open in your browser. That’s all!"
+  ]
 ,
-    "downloadLink": "https://github.com/Haris685/BJH-OS/releases/download/BJH_OS_V4.5/BJH.OS.4.5.new.Update.zip"
+    "downloadLink": "https://github.com/Haris16-code/BJH-OS/releases/download/BJH-OS-4.6-Update/BJH-OS-4.6-Update.zip"
 }
