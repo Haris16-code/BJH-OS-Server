@@ -1,21 +1,23 @@
 {
-    "version": "4.6",
+    "version": "4.7",
     "updateNotes": [
-    "💻 Window Management Improvements:",
-    "- Draggable App Windows with titlebar and close button.",
-    "- Maximize / Restore functionality (double-click titlebar supported).",
-    "- In-window launching: Start menu & toolbar apps open inside windows instead of new tabs.",
-    "- Smoother UI with enhanced shadows, borders, and polished drag interactions.",
-    "✨ New Features & Updates:",
-    "- BJH OS AI Added for smarter interactions.",
-    "- Flash Browser added: lightweight, fast, and secure.",
-    "- About & Settings pages rebuilt with improved UI and system info display.",
-    "- BJH OS Antivirus: Definitions Updated to the Latest Version.",
-    "- BJH Tool 64-bit Fix for better compatibility.",
-    "📦 How to install this update?",
-    "1. Extract the zip file, open BJH OS Tool, and click 'System Update'. Select the extracted folder to install automatically.",
-    "2. Reload BJH OS if it is already open in your browser. That’s all!"
-  ]
+  "🎉 BJH OS 4.7 Update - What's New:",
+  "💻 New BJH OS Apps Market Added:",
+  "- Explore, download, and update a wide range of apps and games.",
+  "- Search bar with suggestions/autocomplete while typing.",
+  "- Trending notifications at the top with app previews.",
+  "- App detail pages with icon, developer name, rating, reviews, download size, and download button.",
+  "- Screenshots and video previews if available.",
+  "- Manage favorite apps and track app updates in 'Manage Apps' panel.",
+  "- Rate and review apps, and see similar apps or games at the bottom.",
+  "✨ New Features & Improvements:",
+  "- New BJH OS Apps Market is now added in Main Desktop",
+  "- BJH OS core optimizations for faster performance.",
+  "- Minor bug fixes and stability improvements across all modules.",
+  "📦 How to install this update?",
+  "1. Extract the zip file, open BJH OS Tool, and click 'System Update'. Select the extracted folder to install automatically.",
+  "2. Reload BJH OS if it is already open in your browser. That's all!"
+]
 ,
-    "downloadLink": "https://github.com/Haris16-code/BJH-OS/releases/download/BJH-OS-4.6-Update/BJH-OS-4.6-Update.zip"
+    "downloadLink": "https://github.com/Haris16-code/BJH-OS/releases/download/BJH-OS-4.7-Update/BJH-OS-4.7-Update.zip"
 }
